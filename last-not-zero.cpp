@@ -1,6 +1,9 @@
+//2019-11-17 22:06:42
+//求阶乘最后一位非0数的三种方法
+
+//1
 #include<iostream>
 using namespace std;
-
 int main()
 {
     long int sum=1,i,n;
@@ -31,7 +34,10 @@ int main()
     }
 }
 
-/*#define M 10000
+//2
+#include<iostream>
+using namespace std;
+#define M 10000
 #define N 10000
 int p=1;
 int func2(int a);
@@ -81,8 +87,11 @@ int main()
         a[i]=0;
     a[0]=1;p=1;
     func(a, n);
-}*/
-/*
+}
+
+//3
+#include<iostream>
+using namespace std;
 int main()
 {
     int Data[100000];
@@ -124,4 +133,4 @@ int main()
             break;
             }
         }
-}*/
+}
